@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(40, 136, 131), rgb(166, 212, 226));
+    font-size: 30px;
+    
+}
+
+
+.jumbotron {
+    text-align: center;
+    background-color: white;
+    border: solid black 5px;
+    border-radius: 10px;
+    margin: 20px 150px;
+}
