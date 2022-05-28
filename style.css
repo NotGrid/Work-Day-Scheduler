@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, rgb(40, 136, 131), rgb(166, 212, 226));
+    background-image: linear-gradient(to bottom right, rgb(40, 136, 131), rgb(92, 92, 232));
     font-size: 30px;
 
 }
@@ -18,4 +18,20 @@ body {
     border: solid black 5px;
     border-radius: 10px;
     margin: 20px 50px;
+}
+
+.save-btn {
+    border-radius: 10px;
+}
+
+.hour {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    background-color: lightblue;
+    color: black;
+}
+
+.time-row {
+    margin-top: 10px;
 }
